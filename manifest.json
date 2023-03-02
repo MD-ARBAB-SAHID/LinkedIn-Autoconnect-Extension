@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "LinkedIn Auto Connection Request Sender",
   "version": "0.01",
-  "description": "LinkedIn autoconnect is a browser extensions that allows users to automatically send connection requests to other LinkedIn members based on certain criteria, such as industry, job title, or location.",
+  "description": "LinkedIn autoconnect is a browser extension that allows users to automatically send connection requests to other LinkedIn members based on certain criteria, such as industry, job title, or location.",
   "icons": {
     "16": "images/icon16.png",
     "32": "images/icon32.png",
