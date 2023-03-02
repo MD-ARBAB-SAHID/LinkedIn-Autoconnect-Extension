@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(25, 32, 44);
+  width: 300px;
+  color: white;
+  margin-bottom: 20px;
+}
+/* outer div css */
+.outer-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/* css for header */
+div.heading {
+  font-size: 18px;
+}
+.outer-box div {
+  margin: 20px 10px;
+}
+
+/* css for "send invitations" button */
+.button-64 {
+  width: 90%;
+  background-color: rgb(44, 49, 61);
+  padding: 15px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.button-64:hover {
+  background-color: rgb(63, 68, 77);
+}
+
+@media only screen and (max-width: 175px) {
+  body {
+    width: 200px;
+    margin-bottom: 15px;
+  }
+  div.heading,
+  .button-64 {
+    font-size: 15px;
+  }
+  .button-64 {
+    padding: 10px 7px;
+  }
+}
